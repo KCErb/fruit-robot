@@ -6,3 +6,5 @@ category-title: Starting with Android
 order: 1
 permalink: /android/firstapp/index/
 ---
+
+Placeholder
