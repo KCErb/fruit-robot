@@ -1,0 +1,11 @@
+# Site settings
+title: Robotic Fruit
+email: iamkcerb@gmail.com
+description: Robotic Fruit is a site for learning about cross-platform Android / iOS development on RubyMotion.
+baseurl: '/robotic-fruit'
+github_username:  kcerb
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+    extensions: [with_toc_data]
