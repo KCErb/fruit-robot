@@ -1,7 +1,7 @@
 # Site settings
 title: Fruit Robot
 email: iamkcerb@gmail.com
-description: Fruit Robot is a site for learning about cross-platform Android / iOS development on RubyMotion.
+description: A site for learning about cross-platform Android / iOS development on RubyMotion for beginners
 baseurl: '/fruit-robot'
 github_username: kcerb
 
