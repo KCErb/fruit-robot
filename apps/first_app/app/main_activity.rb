@@ -4,8 +4,9 @@ class MainActivity < Android::App::Activity
     layout = Android::Widget::LinearLayout.new(self)
     layout.orientation = Android::Widget::LinearLayout::HORIZONTAL
 
-    @edit_text = Android::Widget::EditText.new(self)
-    layout.addView @edit_text
+    edit_text = Android::Widget::EditText.new(self)
+    layout.addView edit_text
+
     self.contentView = layout
   end
 end
