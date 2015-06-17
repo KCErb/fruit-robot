@@ -4,30 +4,24 @@ layout: default
 
 <div class="home">
 
+<h1> Hi there! </h1>
 <h3>
-  Hi there!
-  <br><br>
   This is a set of tutorials for getting started with iOS <i>and</i> Android
-  app development using the fantastic <a href="http://www.rubymotion.com/">Ruby Motion</a>.
+  app development using the fantastic <a href="http://www.rubymotion.com/">RubyMotion</a>.
   <br><br>
-  These tutorials are for absolute beginners who know the basics of Ruby and
-  little else.
   To get started, just click on the links below and follow along as I build basic apps
   and explore the Android and iOS APIs with you. These tutorials will be most effective
   if you don't just read along! I want you to be writing code, clicking links, and
   digging deeper as we go.
   <br><br>
   If you find that anything is amiss such as broken links, broken code,
-  or confusing writing, please let me know! This is an open-source project
+  or confusing writing, please let me know! This is an <a href="https://github.com/KCErb/fruit-robot">open-source</a> project
   so I'd love to have all the help I can get.
-  <br><br>
-  I don't have a solid plan for how these tutorials will ultimately be organized,
-  so for now I'm going to dig into iOS and Android separately.
 </h3>
 
 <!-- Generate Tutorial Links -->
 <!-- First, create an array of the tutorials by splitting a string, and get all the pages -->
-{% assign categories = "android-start ios-start" | split: ' ' %}
+{% assign categories = "first_app ios-start" | split: ' ' %}
 {% assign pages = site.pages | sort:'order' %}
 
 <!-- Next go through each category and create its links -->
@@ -38,6 +32,10 @@ layout: default
       <h2>
         {{ page.category-title }}
       </h2>
+
+      <h3>
+        {{ page.category-description }}
+      </h3>
       {% break %}
     {% endif %}
   {% endfor %}
