@@ -293,7 +293,7 @@ own and I hope that like me you get hung up on something for a while and spend a
 docs, debugging, and trying to figure out what is wrong.
 
 But if you find yourself flailing and needing a way out, you can see the solution by going to
-the Github repo where these tutorials are located and looking at the [source code](https://github.com/KCErb/fruit-robot/tree/gh-pages/tutorials/Android) of [these](https://github.com/KCErb/fruit-robot/tree/gh-pages/apps/android/first_app_xml) [apps](https://github.com/KCErb/fruit-robot/tree/gh-pages/apps/android/first_app_programmatic).
+the Github repo where these tutorials are located and looking at the [source code](https://github.com/KCErb/fruit-robot/tree/gh-pages/tutorials/Android) of [these](https://github.com/KCErb/fruit-robot/tree/gh-pages/apps/android/first_app/first_app_xml) [apps](https://github.com/KCErb/fruit-robot/tree/gh-pages/apps/android/first_app/first_app_programmatic).
 Every tutorial will have a fully functioning app or two to go along with it. If you get
 lost, you can compare what you have to mine and go from there.
 
