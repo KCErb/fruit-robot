@@ -15,8 +15,6 @@ I give you (a link to): [BluePotion](https://github.com/infinitered/bluepotion)
 
 ## Something Cool
 
-BluePotion is very cool and it is also very alpha. At the time of this writing I'm not able to get it running on my machine so this tutorial will have to be put on pause.
+BluePotion is very cool and it is also very alpha
 
-In the mean-time let's dive into iOS development!
-
-(Over there, we'll definitley be getting familiar with RedPotion, BluePotion's mighty twin.)
+--- Under Construction ---

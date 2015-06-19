@@ -2,7 +2,7 @@
 layout: page
 title: Introduction
 os: ios
-category: ios-start
+category: start
 category-title: Starting with iOS
 category-description: In these lessons we'll explore the basics of developing for iOS with RubyMotion. Much like the first Android lessons, we'll not use any 3rd party help so that we can get familiar with the Apple way as a reference point.
 order: 1

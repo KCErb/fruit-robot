@@ -2,7 +2,7 @@
 layout: page
 title: App Structure
 os: ios
-category: ios-start
+category: start
 order: 2
 permalink: /ios/firstapp/index/structure/
 ---

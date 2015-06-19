@@ -221,3 +221,42 @@ pre {
   background-color: #fff;
   padding: 20px;
 }
+
+.btn-green {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #fff !important;
+  font-size: 20px;
+  background: #a4c739;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  background: #adcc48;
+  text-decoration: none;
+}
+
+.btn-gray {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #fff !important;
+  font-size: 20px;
+  background: #b4b4b4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-gray:hover {
+  background: #bebebe;
+  text-decoration: none;
+}
+
+.spacer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

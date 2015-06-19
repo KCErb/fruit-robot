@@ -1,0 +1,44 @@
+---
+layout: default
+title: Getting Started with Android
+---
+<div class="home">
+<!-- Generate Tutorial Links -->
+<!-- First, create an array of the tutorials by splitting a string,
+ and get all the pages. We do this to enforce an order on the categories
+ There's probably a cleaner way, but I'll cross that bridge when I have more
+ than two lessons to think about -->
+{% assign categories = "start toolbox" | split: ' ' %}
+{% assign pages = site.pages | sort:'order' %}
+
+<!-- Next go through each category and create its links -->
+{% for category in categories %}
+  <!-- Now find the title of this category and put it as a header -->
+  {% for page in pages %}
+    {% if page.category == category %}
+      <h2>
+        {{ page.category-title }}
+      </h2>
+
+      <h3>
+        {{ page.category-description }}
+      </h3>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- With the title in place, find all the pages that belong to this category and link'em up -->
+  <div class="trigger">
+    {% for page in pages %}
+    {% if page.category == category and page.os == "ios" %}
+    <div>
+      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <br>
+
+{% endfor %}
+</div>

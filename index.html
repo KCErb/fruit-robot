@@ -6,7 +6,7 @@ layout: default
 
 <h1> Hi there! </h1>
 <h3>
-  This is a set of tutorials for getting started with iOS <i>and</i> Android
+  This is a set of simple tutorials for getting started with iOS <i>and</i> Android
   app development using the fantastic <a href="http://www.rubymotion.com/">RubyMotion</a>.
   <br><br>
   To get started, just click on the links below and follow along as I build basic apps
@@ -19,40 +19,12 @@ layout: default
   so I'd love to have all the help I can get.
 </h3>
 
-<!-- Generate Tutorial Links -->
-<!-- First, create an array of the tutorials by splitting a string, and get all the pages -->
-{% assign categories = "first_app toolbox ios-start" | split: ' ' %}
-{% assign pages = site.pages | sort:'order' %}
+<div class='spacer'></div>
 
-<!-- Next go through each category and create its links -->
-{% for category in categories %}
-  <!-- Now find the title of this category and put it as a header -->
-  {% for page in pages %}
-    {% if page.category == category %}
-      <h2>
-        {{ page.category-title }}
-      </h2>
+<a class="btn-green" href="{{ site.baseurl }}/tutorials/android/">Get Started with Android</a>
 
-      <h3>
-        {{ page.category-description }}
-      </h3>
-      {% break %}
-    {% endif %}
-  {% endfor %}
-
-  <!-- With the title in place, find all the pages that belong to this category and link'em up -->
-  <div class="trigger">
-    {% for page in pages %}
-    {% if page.category == category %}
-    <div>
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-    </div>
-    {% endif %}
-    {% endfor %}
-  </div>
-
-  <br>
-
-{% endfor %}
+<a class="btn-gray" href="{{ site.baseurl }}/tutorials/ios/">Get Started with iOS</a>
+(Under Construction)
 
 </div>
+<div class='spacer'></div>
