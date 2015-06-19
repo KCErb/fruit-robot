@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project/template/android'
+
+begin
+  require 'bundler'
+  Bundler.require
+rescue LoadError
+end
+
+Motion::Project::App.setup do |app|
+  app.name = 'first_app'
+  app.api_version = '19'
+  app.package = "com.kcerb.firstapp.xml"
+  app.sub_activities = ['DisplayMessageActivity']
+  app.resources_dirs = ['res']
+end

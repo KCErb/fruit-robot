@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit_message">Enter Some Text!</string>
+    <string name="button_send">Send</string>
+    <string name="cancel_button">Cancel</string>
+</resources>
