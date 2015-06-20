@@ -31,9 +31,9 @@ For this app, the goal is to have the user input some text, push a button, and h
 
 One of the main differences between what I present in this lesson and what you'll see in those tutorials is
 that I make absolutely no use of XML (yay!). This is sorta frowned on in the Android community because XML is
-Android's way of enforcing an [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) approach (*do* read that Wikipedia article if you've never heard of MVC before).
+Android's way of enforcing an [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) approach to app development (*do* read that Wikipedia article if you've never heard of MVC before).
 
-As a new Rubyist I've essentially learned two things by osmosis from the community:
+As a new Rubyist, I've essentially learned two things by osmosis from the community:
 
 1. `puts 'Hello World'`
 2. XML is bad. Bad! Don't touch it. It is bad.

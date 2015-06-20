@@ -16,14 +16,11 @@ Before we get going,
 we need to make sure you're up and running with RubyMotion. Please head over
 to the RubyMotion website and run through their [Getting Started](http://www.rubymotion.com/developers/guides/manuals/android/getting-started/) manual (if you haven't already done so).
 
-If you get hung-up on the guides, you might want to check out this list of [gotchas](https://gist.github.com/alxjrvs/4b73771294ea25feb2f7).
+If you get hung-up there, you might want to check out this list of [gotchas](https://gist.github.com/alxjrvs/4b73771294ea25feb2f7).
 
-If you *have* already done that, and you've got everything up and running already,
-then just be sure to run a quick
+If you don't have an Android device, and aren't using Genymotion, you might want to jump over to [the lesson about Genymotion](http://kcerb.github.io/fruit-robot/android/toolbox/genymotion/) and start using it before you move on in these lessons.
 
-    $ sudo motion update
-
-before we move on so that we're all on the same page.
+If you *have* already done all of that, and you've got everything up and running already then that's great, let's keep going :)
 
 ## A Note on Sweat
 

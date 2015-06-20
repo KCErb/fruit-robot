@@ -7,7 +7,7 @@ order: 3
 permalink: /android/toolbox/android-studio/
 ---
 
-The next tool I'm going to introduce you to is Android Studio. To be honest, I'm not sure how much I'll be using Android Studio when it comes to actual app development! I've decided to include it because I hear it referenced often on StackOverflow and I've heard that we can use it to build those layout XMLs instead of typing everything by hand. So let's explore around a little.
+The next tool I'm going to introduce you to is Android Studio. To be honest, I'm not sure how much I'll be using Android Studio in the coming tutorials! I've decided to include it because we can use it to build those layout XMLs instead of typing everything by hand. So let's explore around a little.
 
 ### Rename
 
