@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Building a Simple User Interface with XML
+title: Building a Simple User Interface - XML
 os: android
 category: first_app
 order: 4
