@@ -48,7 +48,7 @@ and use the right tool at the right time.
 
 ## Activities
 
-Hopefully by now you've had a chance to read both the [guide on activities](https://developer.android.com/guide/components/activities.html) and have perused the [reference on them](https://developer.android.com/reference/android/app/Activity.html). You can quickly access either by going to the top right corner where the magnifying glass is, and typing in the word "activity" like this:
+Hopefully by now you've had a chance to read both the [guide on activities](https://developer.android.com/guide/components/activities.html) and have perused the [reference on them](https://developer.android.com/reference/android/app/Activity.html). You can quickly access either by searching the Android developer website for the word `activity` in the top right corner.
 
 {% include image.html width='' src='reference_search.png' page=page %}
 
@@ -79,40 +79,6 @@ layout.orientation = Android::Widget::LinearLayout::HORIZONTAL
 
 Go ahead and fire that up and you should see . . . nothing, because the layout hasn't been
 set as the content view of the activity (also because it's empty).
-
-## Experiment
-
-Before going on, let's experiment a little.
-
-#### Set the orientation
-
-I'm just going to think of a bunch of alternate ways to do the same thing
-and see if any of them work. I encourage you to do the same!
-
-In the above code we used the constant `HORIZONTAL` that belongs to the `LinearLayout` class (go ahead and search through the reference and see if you can find each of the places this constant is mentioned), but could we also do a more ruby thing like:
-
-```ruby
-layout = Android::Widget::LinearLayout.new(self, orientation: :horizontal) # no
-```
-
-or this?
-
-```ruby
-layout = Android::Widget::LinearLayout.new(self)
-layout.orientation = :horizontal # nope
-```
-
-what about
-```ruby
-layout.orientation = 'horizontal' # no
-```
-
-According to the reference the `HORIZONTAL` constant is just a reference to 0! So
-does this work?
-
-```ruby
-layout.orientation = 0 # yes
-```
 
 #### More Methods: `get` and `set`
 
