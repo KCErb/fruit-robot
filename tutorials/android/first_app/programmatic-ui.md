@@ -237,7 +237,7 @@ layout_params.width = Android::Widget::LinearLayout::LayoutParams::MATCH_PARENT
 ```
 
 <hr>
-**Sidenote** - At first, I hadn't expected `setWidth` to be available on a `LayoutParams` object since it's not listed as a method (inherited or otherwise) in the docs. After a bit of exploring, it looks like the clue to that method's availability is in the [Inherited Fields](https://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html#inhfields) section of the reference. Good to know!
+**Sidenote** - At first, I hadn't expected `width=` to be available on a `LayoutParams` object since it's not listed as a method (inherited or otherwise) in the docs. After a bit of exploring, it looks like the clue to that method's availability is in the [Inherited Fields](https://developer.android.com/reference/android/widget/LinearLayout.LayoutParams.html#inhfields) section of the reference. It's also noteworthy that in this case, there is no corressponding `setWidth` method!
 <hr>
 
 ## Add a Button

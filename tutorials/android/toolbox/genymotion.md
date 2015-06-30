@@ -11,7 +11,7 @@ Genymotion is an Android emulator that actually works. If you don't have a devic
 (or more realistically *all the devices*) then you'll need to test your apps out on
 an emulator. To see all the great things that Genymotion has to offer, check out [their website](https://www.genymotion.com).
 
-Also, there's [a blogpost](http://www.iconoclastlabs.com/blog/rubymotion-android-in-the-emulator-with-genymotion) Gant Laborde that you should check out. It covers much the same ground I do here and is where I learned the things I'm going to explain here (though I plan to give a little more detail).
+Also, there's [a blogpost](http://www.iconoclastlabs.com/blog/rubymotion-android-in-the-emulator-with-genymotion) written by Gant Laborde that you should check out. It covers much the same ground I do here and is where I learned the things I'm going to explain here (though I plan to give a little more detail).
 
 ## What's Genymotion?
 

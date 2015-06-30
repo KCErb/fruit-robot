@@ -1,5 +1,4 @@
 class DisplayMessageActivity < Android::App::Activity
-
   TEXT_VIEW = Android::Widget::TextView
   attr_accessor :text_view
 

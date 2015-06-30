@@ -44,7 +44,7 @@ Speaking of typing . . .
 
 This is the minimum required to get a basic layout going.
 
-- Declare the XML version
+- Declare the XML version / encoding
 - Create a root element (only 1, see [this](https://developer.android.com/guide/topics/ui/declaring-layout.html#write))
 - Specify a width, height and orientation if its a `LinearLayout`. We used `match_parent` here because our activity has only one view so it may as well take up the whole screen.
 
@@ -114,7 +114,7 @@ So that you can reference resources (such as your `EditText`) from other places 
 ```
 The id syntax works like this: the `@` symbol says I'm referencing a resource (`@id` in this case, we'll use a different resource `@string` in a moment) and the `+` symbol says "I'm creating a new resource". So in other words `"@+id/edit_message"` I'm creating a new resource id: `edit_message` and now you can refer to your `EditText` by this id.
 
-When you create resources like this you really are *adding* to a HUGE pile of resources that are already made available by the `R` class. So that `+` sign isn't just for show!
+When you create resources like this you really are *adding* to a HUGE pile of resources that are already made available by the `R` package. So that `+` sign isn't just for show!
 
 ### Attributes and String Resources
 
@@ -127,7 +127,7 @@ Now, let's say we want to add a "hint" text for the `EditText` like we did in th
   android:hint="Enter Some Text!" />
 ```
 
-We *could* write the content of the hint here direclty. But the Android way is to reference a string resource like this:
+We *could* write the content of the hint here directly. But the Android way is to reference a string resource like this:
 
 ```xml
 <EditText android:id="@+id/edit_message"
@@ -203,7 +203,6 @@ The only thing new here is the `layout_width="0dp"`. Again, from the training:
 
 ## Conclusion
 
-So that's it for an XML UI. Since this *is* the Android way so it does simplify some things, but
-at the end of the day no one should have to write XML by hand so this way is sluggish without 3rd party tools to make do the heavy lifting for us.
+So that's it for an XML UI. Since this *is* the Android way it does simplify some things (such as size control), but at the end of the day no one should have to write XML by hand. That means this way is sluggish without 3rd party tools to do the heavy lifting for us.
 
 For the final lesson in these "First App" tutorials, we'll learn how to start up a new activity. Since this can be done both programmatically and via XML we'll be looking at how this is done in both situations.
