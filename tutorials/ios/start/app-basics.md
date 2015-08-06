@@ -19,7 +19,7 @@ $ cd FirstApp
 $ rake
 ```
 
-{% include image.html width='250px' src='to-do-list-bare.png' page=page %}
+{% include image.html width='250px' src='first-app-bare.png' page=page %}
 
 ## A Little Boiler Plate
 
@@ -29,7 +29,7 @@ Before modifying this template app, let's take a look at the `app_delegate.rb` f
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
     rootViewController = UIViewController.alloc.init
-    rootViewController.title = 'ToDoList'
+    rootViewController.title = 'FirstApp'
     rootViewController.view.backgroundColor = UIColor.whiteColor
 
     navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
