@@ -82,11 +82,10 @@ Whereas our first look at a Rakefile used the bare minimum to get things going, 
 
 Now let's take a look at that app folder! The only non-empty subdirectories are `screens/`, `stylesheets/`, and `views/`. The goal of BluePotion is to create a companion to RedPotion. We'll look more directly at RedPotion in the iOS tutorials, but for now I'll put it like this: RedPotion is a conglomerate gem for combining a bunch of useful gems that have been created for iOS-based RubyMotion development. The two we want to look at right now to better understand BluePotion are [ProMotion](https://github.com/clearsightstudio/ProMotion) and [Ruby Motion Query (RMQ)](http://rubymotionquery.com/).
 
-Blue Potion is working to re-create both of these essential libraries for Android development so let's take a quick look at them.
-
 ### ProMotion
 
-First let's take a look in our `views` directory at the appropriately named starter file: `bluepotion_application.rb`
+In our `views` directory, at the appropriately named starter file: `bluepotion_application.rb`
+we have:
 
 ```ruby
 class BluePotionApplication < PMApplication
@@ -98,7 +97,7 @@ class BluePotionApplication < PMApplication
 end
 ```
 
-This view gives our application *ProMotion* attributes by setting `PMApplication` as the super-class and then declares the app's Home Screen to be a class called `HomeScreen`. As all good screens we put this one in the `screens` directory.
+This view gives our application *ProMotion* attributes by setting `PMApplication` as the super-class and then declares the app's Home Screen to be a class called `HomeScreen`. As do all good screens, this one lives in the `screens` directory.
 
 ```ruby
 class HomeScreen < PMScreen
@@ -135,10 +134,10 @@ There's a lot to learn about BluePotion, so in this first lesson, I want a take-
 While we're looking at our first screen, we'll see some things that actually belong
 to RMQ. (That's the whole point of BluePotion, to combine these tools!)
 
-RMQ provides stylesheets and a jQuery-like interface for setting-up things like click events (often called "touch" or "tap" events), and appending / hiding / removing elements from the app. I definitely recommend giving [the docs](http://rubymotionquery.com/documentation) a quick peak because they are truly fantastic.
+RMQ provides stylesheets and a jQuery-like interface for setting-up things like click events (usually called "touch" or "tap" events on mobile platforms), and appending / hiding / removing elements from the app. I definitely recommend giving [the RMQ docs](http://rubymotionquery.com/documentation) a quick peak because they are truly fantastic.
 
-In this example app, we see some RMQ in action in the class-method `stylesheet` and
-the `append` call in `on_load`. To round off this introduction, let's find out where those things are defined.
+In the example app, we can see RMQ in action over in the class-method `stylesheet` and
+the `append` in our `on_load` method. To round off this introduction, let's find out where those things are defined.
 
 First the `home_screen_stylesheet`:
 
@@ -203,4 +202,10 @@ Access to these methods is (relatively) straight-forward since (if you look back
 
 ## Something Blue
 
-And that's it for my introduction to BluePotion. The rest of these tutorials will be written using BluePotion so don't worry, we'll be digging *a lot* more into this fantastic gem as time goes on!
+And that's it for my introduction to BluePotion. The rest of these tutorials will be written using plenty of BluePotion so don't worry, we'll be using this gem *a lot* more in the next lessons.
+
+In the meantime, if you're planning on tackling both iOS and Android, now is a good time to switch over to [the iOS tutorials](http://kcerb.github.io/fruit-robot/tutorials/ios/). They will walk through building the same app we did in lesson one, just using a completely different API, so it will exercise your brain, which is good.
+
+What's more is that, with RedPotion being in full production, the iOS toolbox tutorials
+will go over a lot of the same things you just learned about BluePotion in more detail and with
+more examples. The two are meant to be quite similar so learning one will definitely help with the other.
