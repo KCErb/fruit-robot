@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: android_page
 title: Building a Simple User Interface - XML
 os: android
 category: first_app

@@ -246,13 +246,30 @@ pre {
   font-family: Arial;
   color: #fff !important;
   font-size: 20px;
-  background: #b4b4b4;
+  background: #a4a4a4;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn-gray:hover {
   background: #bebebe;
+  text-decoration: none;
+}
+
+.btn-blue {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #fff !important;
+  font-size: 20px;
+  background: #4780f0;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-blue:hover {
+  background: #87b5e0;
   text-decoration: none;
 }
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: android_page
 title: Genymotion
 os: android
 category: toolbox

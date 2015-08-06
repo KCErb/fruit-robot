@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: ios_page
 title: Navigation
 os: ios
 category: start

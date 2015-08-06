@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: android_page
 title: Starting Another Activity
 os: android
 category: first_app

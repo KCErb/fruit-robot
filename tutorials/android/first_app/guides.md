@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: android_page
 title: The Guides
 os: android
 category: first_app

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: android_page
 title: Introduction
 os: android
 category: first_app

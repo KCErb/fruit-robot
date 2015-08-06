@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: ios_page
 title: The Basics
 os: ios
 category: start

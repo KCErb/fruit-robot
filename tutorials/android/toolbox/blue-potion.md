@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: android_page
 title: BluePotion
 os: android
 category: toolbox

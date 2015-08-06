@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: ios_page
 title: First UI
 os: ios
 category: start

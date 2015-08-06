@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: ios_page
 title: The Guides
 os: ios
 category: start

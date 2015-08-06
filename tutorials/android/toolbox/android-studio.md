@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: android_page
 title: Android Studio
 os: android
 category: toolbox
