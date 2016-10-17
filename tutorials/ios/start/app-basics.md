@@ -113,7 +113,7 @@ One last thing to cover. You may have noticed from the template that we created 
 
 The answer seems to be: yes, sorta. This is outside of my expertise so if you're interested a place to start might be [this discussion](https://groups.google.com/forum/#!topic/rubymotion/RPxKXMfcGGs). But you're welcome to just experiment and see what you get or use `alloc.init` when in doubt.
 
-Also there is a [neat gem](https://github.com/digitalfx/WithMotion) that shortcuts some of these things.
+Also there is a [neat gem](https://github.com/pixlwave/WithMotion) that shortcuts some of these things.
 
 ## Conclusion
 
